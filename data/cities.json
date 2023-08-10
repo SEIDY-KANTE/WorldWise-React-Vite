@@ -59,6 +59,30 @@
         "lng": -9.309072
       },
       "id": 67767678
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-08-10T11:30:00.296Z",
+      "notes": "sgsdgs",
+      "position": {
+        "lat": "48.864714761802794",
+        "lng": "2.3730468750000004"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Unorganized Kivalliq",
+      "country": "Canada",
+      "emoji": "🇨🇦",
+      "date": "2023-08-10T11:40:38.406Z",
+      "notes": "Great",
+      "position": {
+        "lat": "61.52269494598361",
+        "lng": "-101.6015625"
+      },
+      "id": 98443202
     }
   ]
 }

@@ -16,7 +16,7 @@ function CitiesProvider({ children }) {
         const data = await resp.json();
         setCities(() => data);
       } catch (error) {
-        console.error("Something went wrong with fetching!🔥");
+        alert("Something went wrong with fetching!🔥");
       } finally {
         setIsLoading((isLoading) => (isLoading = false));
       }
@@ -31,14 +31,55 @@ function CitiesProvider({ children }) {
       const data = await resp.json();
       setCurrentCity(() => data);
     } catch (error) {
-      console.error("Something went wrong with fetching!🔥");
+      alert("There was an error loading data...");
+    } finally {
+      setIsLoading((isLoading) => (isLoading = false));
+    }
+  }
+
+  async function createCity(newCity) {
+    try {
+      setIsLoading((isLoading) => (isLoading = true));
+      const resp = await fetch(`${BASE_URL}/cities`, {
+        method: "POST",
+        body: JSON.stringify(newCity),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const data = await resp.json();
+      setCities((cities) => [...cities, data]);
+    } catch (err) {
+      alert("There was an error creating city...");
+    } finally {
+      setIsLoading((isLoading) => (isLoading = false));
+    }
+  }
+  async function deleteCity(id) {
+    try {
+      setIsLoading((isLoading) => (isLoading = true));
+      await fetch(`${BASE_URL}/cities/${id}`, {
+        method: "DELETE",
+      });
+      setCities((cities) => cities.filter((city) => city.id !== id));
+    } catch (err) {
+      alert("There was an error deleting city...");
     } finally {
       setIsLoading((isLoading) => (isLoading = false));
     }
   }
 
   return (
-    <CitiesContext.Provider value={{ cities, isLoading, currentCity, getCity }}>
+    <CitiesContext.Provider
+      value={{
+        cities,
+        isLoading,
+        currentCity,
+        getCity,
+        createCity,
+        deleteCity,
+      }}
+    >
       {children}
     </CitiesContext.Provider>
   );

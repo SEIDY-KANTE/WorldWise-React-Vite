@@ -1,54 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
-      "cityName": "Conakry",
-      "country": "Guinea",
-      "emoji": "🇬🇳",
-      "date": "2027-05-20T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 9.516778,
-        "lng": -13.698236
-      },
-      "id": 8758974
-    },
-    {
       "cityName": "Kankan",
       "country": "Guinea",
       "emoji": "🇬🇳",
@@ -59,6 +11,78 @@
         "lng": -9.309072
       },
       "id": 67767678
+    },
+    {
+      "cityName": "Adapazari",
+      "country": "Turkiye",
+      "emoji": "🇹🇷",
+      "date": "2023-08-12T13:20:33.742Z",
+      "notes": "Süper",
+      "position": {
+        "lat": "40.76821507948293",
+        "lng": "30.40328979492188"
+      },
+      "id": 67767679
+    },
+    {
+      "cityName": "Bamako",
+      "country": "Mali",
+      "emoji": "🇲🇱",
+      "date": "2023-08-12T13:20:56.573Z",
+      "notes": "Great\n",
+      "position": {
+        "lat": "12.577153497310178",
+        "lng": "-7.976074218750001"
+      },
+      "id": 67767680
+    },
+    {
+      "cityName": "Rome",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2023-08-12T13:21:46.278Z",
+      "notes": "Super",
+      "position": {
+        "lat": "41.84470650303925",
+        "lng": "12.507934570312502"
+      },
+      "id": 67767681
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-08-12T13:22:02.438Z",
+      "notes": "Cool",
+      "position": {
+        "lat": "48.84723547336819",
+        "lng": "2.3730468750000004"
+      },
+      "id": 67767682
+    },
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2023-08-12T13:22:27.629Z",
+      "notes": "Amazing",
+      "position": {
+        "lat": "38.7031566760217",
+        "lng": "-9.146118164062502"
+      },
+      "id": 67767683
+    },
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2023-08-12T13:23:10.717Z",
+      "notes": "Great",
+      "position": {
+        "lat": "52.48514293124437",
+        "lng": "13.337402343750002"
+      },
+      "id": 67767684
     }
   ]
 }

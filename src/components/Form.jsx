@@ -69,7 +69,7 @@ function Form() {
 
   if (geocodingError) return <Message message={geocodingError} />;
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
     const newCity = {
       cityName,
@@ -82,7 +82,7 @@ function Form() {
         lng,
       },
     };
-    createCity(newCity);
+    await createCity(newCity);
     navigate("/app/cities");
   }
 

@@ -15,4 +15,5 @@ You can run this project on your local machine by following these steps:
    cd project-folder-name
    npm install
    npm run dev
-
+   
+![screen](https://github.com/SEIDY-KANTE/WorldWise-React-Vite/assets/82980518/117da4ea-3c4d-47c9-9dcf-0854709139d9)

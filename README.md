@@ -11,8 +11,8 @@ You can run this project on your local machine by following these steps:
 3. Open your terminal in a local folder and run the following commands:
 
    ```sh
-   git clone <your-forked-repo-url>
-   cd project-folder-name
+   git clone https://github.com/SEIDY-KANTE/WorldWise-React-Vite.git
+   cd WorldWise-React-Vite
    npm install
    npm run dev
    
